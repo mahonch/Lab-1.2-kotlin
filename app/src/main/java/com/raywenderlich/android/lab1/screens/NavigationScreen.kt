@@ -21,7 +21,7 @@ import com.raywenderlich.android.lab1.router.Screen
 @Composable
 fun NavigationScreen() {
     Surface(
-        color = Color.White,
+        color = Color.LightGray,
         modifier = Modifier.fillMaxSize()
     ) {
         Column(
@@ -48,9 +48,9 @@ fun NavigationButton(text: String, screen: Screen) {
     Button(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(start = 16.dp, end = 16.dp, top = 16.dp),
+            .padding(start = 14.dp, end = 12.dp, top = 16.dp),
         shape = RoundedCornerShape(4.dp),
-        colors = ButtonDefaults.buttonColors(backgroundColor = colorResource(id = R.color.blue)),
+        colors = ButtonDefaults.buttonColors(backgroundColor = colorResource(id = R.color.black)),
         onClick = { FundamentalsRouter.navigateTo(screen) }
     ) {
         Text(
