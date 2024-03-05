@@ -24,4 +24,5 @@
     <string name="warning_alertone">Ошибка</string>
     <string name="warning_alertwo">Внимание</string>
     <string name="warning_alerttree">закрыть</string>
+    <string name="menu">Меню</string>
 </resources>
