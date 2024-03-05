@@ -37,10 +37,10 @@ fun TextScreen() {
     }
 }
 
-@Composable
-@Preview
-fun MyText(){
-    Text(
+        @Composable
+        @Preview
+        fun MyText(){
+            Text(
         text = stringResource(id = R.string.set_text),
         color =  colorResource(id = R.color.purple_700),
         fontSize = 30.sp,
