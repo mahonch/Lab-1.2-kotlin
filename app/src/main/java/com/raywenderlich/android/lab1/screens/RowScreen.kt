@@ -37,7 +37,7 @@ fun MyRow() {
         THREE_ELEMENT_LIST.forEach { textResId ->
             Text(
                 text = stringResource(id = textResId),
-                fontSize = 18.sp
+                fontSize = 14.sp
             )
         }
 

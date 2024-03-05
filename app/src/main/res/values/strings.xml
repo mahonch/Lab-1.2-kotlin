@@ -12,6 +12,12 @@
     <string name="title_alertDialog">Внимание</string>
     <string name="alertDialog_about">Это диалоговое окно</string>
     <string name="insert_email">Email</string>
+    <string name="button_row">Контейнер Row</string>
+    <string name="button_column">Контейнер Column</string>
+    <string name="button_box">Контейнер Box</string>
+    <string name="button_surface">Контейнер Surface</string>
+    <string name="button_scaffold">Контейнер Scaffold</string>
+    <string name="title_MyComposeApp">MyComposeApp</string>
     <string name="first">Первый</string>
     <string name="second">Второй</string>
     <string name="third">Третий</string>
